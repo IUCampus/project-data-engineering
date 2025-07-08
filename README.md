@@ -1,14 +1,16 @@
 # Habit Tracker (CLI-based)
 
-## Overview
-A habit tracking application written in Python. It supports daily and weekly habits, tracks completions, and provides analytics such as streaks and periodic summaries.
+## Project Overview
+The main goal of this project was to design and implement a data system for storing and managing environmental sensor data collected by a municipality. The system must reliably handle data from various sensor types, be scalable and maintainable in the long term, and support future expansion with new metrics such as CO₂ levels, fine dust, or noise. Furthermore, it should support integration with frontend applications for real-time citizen alerts.
 
 ## Features
-- Create and complete daily or weekly habits.
-- View analytics on habit performance and streaks.
-- Save/load habit data to/from JSON or SQLite.
-- Command-line interface (CLI) using Click.
-
+- Analyze what data each sensor sends (e.g., timestamp, location, measurement type, value).
+- Design data flow from sensor to storage.
+- Decide on storage type like NoSQL.
+- Define thresholds for each environmental metric.
+- Create logic for real-time analysis and detection of dangerous values.
+- Implement mechanisms to send warnings to frontend apps or directly to citizens.
+  
 ## Setup Instructions
 1. Clone the repo:
 ```bash
