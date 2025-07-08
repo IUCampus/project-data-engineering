@@ -14,8 +14,8 @@ The main goal of this project was to design and implement a data system for stor
 ## Setup Instructions
 1. Clone the repo:
 ```bash
-git clone https://github.com/IUCampus/python-backend-project.git
-cd habit-tracker
+git clone https://github.com/IUCampus/project-data-engineering.git
+cd sensor-app
 ```
 
 2. Install dependencies:
@@ -23,21 +23,23 @@ cd habit-tracker
 pip install -r requirements.txt
 ```
 
-3. Run the tracker:
+3. Run the sensor-app:
 ```bash
-python cli.py
+docker-compose up --build
 ```
+
+- This will load sample data first (data-loader), and then run FastAPI.
+- Visit http://localhost:8000/docs for Swagger UI.
 
 ## UML Class Diagram
 
-![image](https://github.com/user-attachments/assets/5fac31e7-2926-429f-9bb2-c5a58fe7aebe)
-
-![image](https://github.com/user-attachments/assets/26b47ce7-8d3e-4570-b1bb-6721f0f59bdb)
+![image](https://github.com/user-attachments/assets/f5d796e0-fa4d-4573-8e94-d21195d3349b)
 
 
 ## Project Structure
 
-![image](https://github.com/user-attachments/assets/2870c500-db85-4e46-98d2-d00c435b1f1f)
+![image](https://github.com/user-attachments/assets/e582c6a2-faa0-4376-8b35-31ac2cbff482)
+
 
 
 
@@ -45,13 +47,13 @@ python cli.py
 
 Python 3.7+
 
-SQLite3 for persistence
+NoSQL for persistence
 
 click for CLI
 
 unittest or pytest for testing
 
-JSON for fixture data (optional)
+JSON for fixture data 
 
 Other libraries or helper tools (e.g.,datetime)
 
