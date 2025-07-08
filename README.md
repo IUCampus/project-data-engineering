@@ -30,6 +30,7 @@ docker-compose up --build
 
 - This will load sample data first (data-loader), and then run FastAPI.
 - Visit http://localhost:8000/docs for Swagger UI.
+  
 
 ## UML Class Diagram
 
