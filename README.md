@@ -1,4 +1,4 @@
-# Habit Tracker (CLI-based)
+# Environmental Sensor Data System (CLI-based)
 
 ## Project Overview
 The main goal of this project was to design and implement a data system for storing and managing environmental sensor data collected by a municipality. The system must reliably handle data from various sensor types, be scalable and maintainable in the long term, and support future expansion with new metrics such as CO₂ levels, fine dust, or noise. Furthermore, it should support integration with frontend applications for real-time citizen alerts.
