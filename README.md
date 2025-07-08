@@ -32,7 +32,7 @@ docker-compose up --build
 - Visit http://localhost:8000/docs for Swagger UI.
   
 
-## UML Class Diagram
+## Project Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/f5d796e0-fa4d-4573-8e94-d21195d3349b)
 
