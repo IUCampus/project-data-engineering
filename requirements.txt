@@ -1,0 +1,6 @@
+fastapi
+motor
+pymongo==4.7.1
+pandas==2.2.2
+uvicorn
+python-dotenv

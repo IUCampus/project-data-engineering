@@ -1,0 +1,56 @@
+[
+  {
+    "timestamp": "2025-08-05T10:00:00",
+    "sensor_id": "S12346",
+    "type": "temperature",
+    "value": 20.3,
+    "unit": "°C",
+    "location": {"name": "City Suburb"},
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-08-05T10:00:00",
+    "sensor_id": "S12346",
+    "type": "humidity",
+    "value": 60.5,
+    "unit": "%",
+    "location": {"name": "City Suburb"},
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-08-05T10:00:00",
+    "sensor_id": "S12346",
+    "type": "smoke",
+    "value": 20.3,
+    "unit": "ppm",
+    "location": {"name": "City Suburb"},
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-08-05T10:10:00",
+    "sensor_id": "S67810",
+    "type": "temperature",
+    "value": 36.5,
+    "unit": "°C",
+    "location": {"name": "North Park"},
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-08-05T10:10:00",
+    "sensor_id": "S67810",
+    "type": "humidity",
+    "value": 84.5,
+    "unit": "%",
+    "location": {"name": "North Park"},
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-08-05T10:10:00",
+    "sensor_id": "S67810",
+    "type": "smoke",
+    "value": 55.3,
+    "unit": "ppm",
+    "location": {"name": "North Park"},
+    "extra": {}
+  }
+]
