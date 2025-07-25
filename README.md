@@ -42,6 +42,8 @@ docker-compose up --build
 ![image](https://github.com/user-attachments/assets/e582c6a2-faa0-4376-8b35-31ac2cbff482)
 
 ## Test Scinarios
+<img width="1640" height="291" alt="image" src="https://github.com/user-attachments/assets/5bb6a7b3-2a75-4003-b6ef-ca8d276f92c8" />
+
 ![image](https://github.com/user-attachments/assets/5495461b-7566-4b99-9de2-b6fad4f42771)
 ![image](https://github.com/user-attachments/assets/1f3dbf89-e555-434e-acd6-5e92a3a44134)
 
